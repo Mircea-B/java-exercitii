@@ -1,0 +1,16 @@
+pt exercitiul 2:
+
+avem array1={45,852,0,568,541,854,2536}
+Algoritmul meu e urmatoarul:
+o sa caut minimul si o sa il scriu pe prima pozitie;
+si o sa iau din nou sirul la verificat, si urmatorul minim il pun pe locul urmator samd
+adica, operatiunile vor fi urmatoarele:
+
+1. 45,852,0,568,541,854,2536
+2. 0,852,45,568,541,854,2536
+3. 0,45,852,568,541,854,2536
+4. 0,45,541,568,852,854,2536
+
+printat final 0,45,541,568,852,854,2536
+
+===========================================================================================s

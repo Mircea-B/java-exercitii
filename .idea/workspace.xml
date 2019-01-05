@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9229dc-857f-4ca0-b944-84533b5a10a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Minge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercitiu7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercitiul6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Min_max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program_principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-exercitii/Exercitiul2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-exercitii/Exercitiul2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-exercitii/Sortare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercitiul2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitiul2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sortare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Min_Max" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +18,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercitiul2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="682">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program_principal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercitiul6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exercitiu7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Min_max.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="26" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -85,6 +124,9 @@
         <option value="$PROJECT_DIR$/src/Sortare.java" />
         <option value="$PROJECT_DIR$/src/Minge.java" />
         <option value="$PROJECT_DIR$/src/Exercitiul2.java" />
+        <option value="$PROJECT_DIR$/src/Min_max.java" />
+        <option value="$PROJECT_DIR$/src/Program_principal.java" />
+        <option value="$PROJECT_DIR$/src/Exercitiul6.java" />
       </list>
     </option>
   </component>
@@ -106,6 +148,11 @@
               <item name="java-exercitii" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-exercitii" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-exercitii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-exercitii" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -115,8 +162,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546265278532" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cristi/tema-de-iarna" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546693705844" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -131,9 +178,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercitiul2">
+  <component name="RunManager" selected="Application.Exercitiul6">
     <configuration name="Exercitiul2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercitiul2" />
+      <module name="java-exercitii" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercitiul6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercitiul6" />
       <module name="java-exercitii" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercitiul6" />
         <item itemvalue="Application.Exercitiul2" />
         <item itemvalue="Application.Program" />
       </list>
@@ -182,8 +237,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,11 +315,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercitiul2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="682">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program_principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Min_max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -285,15 +358,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercitiu7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercitiul6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

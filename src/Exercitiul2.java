@@ -5,14 +5,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercitiul2 {
-    // aici voi efectua exercitiul 2
     public static void main(String[] args) {
-        int max;
         int min = 2500000;
         int var1 = 0;
         int i;
 
-        System.out.println("Va rugam introduceti numarul de elemnte ce trebuiesc sortate");
+        System.out.println("Va rugam introduceti numarul de elemente ce trebuiesc sortate");
         Scanner buff = new Scanner(System.in);
         i = buff.nextInt();
 
@@ -26,16 +24,22 @@ public class Exercitiul2 {
             int variabila = buff2.nextInt();
             sir_numere[a] = variabila;
         }
-        for (int b = 0; b < sir_numere.length; b++) {
+        System.out.println("sirul dumneavoastra arata asa  =  " + Arrays.toString(sir_numere));
+
+        for (int b = 0; b <= sir_numere.length; b++) {
             if (sir_numere[b] < min) {
-                sir_numere[b] = var1;
+                var1 = sir_numere[b];
+                sir_numere[b] = min;
                 min = var1;
-                var1 = sir_numere[b + 1];
+                sir_numere[b] = min;
+
             }
-            System.out.println(Arrays.toString(sir_numere));
 
-
+            System.out.println("sirul dumneavoastra arata asa  =  " + Arrays.toString(sir_numere));
         }
+
+
         System.out.println("Va multumim, exercitiul s-a incheiat cu succes, o zi buna in continuare");
     }
+
 }

@@ -1,0 +1,29 @@
+POJO:
+plain
+old
+java
+object
+
+timp.vara(greiere.)
+timp.vara(personaj.)
+int, va aduna
+
+de adunat stocul de pe un an pe altul
+
+
+01. Creati clasa personaj
+02. Creati clasa poveste va fi singura clas aunde exista un main
+03. Creati clasa camara
+04. Creati clasa timp
+05. Instantiem personajele in poveste.
+06. In personaj punem field-urile (nume, camera de tip Camara, lene, harnicie, inViata)
+07. Modificam constructorul personajului ca sa primeasca numele, camara, lenea, harnicia, in Viata va fi default cu true.
+08. Fiecare personaj va avea o camara noua, fiecare camara e o instanta diferita a clasei camara.
+09. adauga field de graunte
+10. adugare in clasa timp a metodei de adunare (vara) si o metoda de scadere (iarna)
+11. timp.vara(), si timp.iarna() vor primi un parametru de tip  Personaj.
+12. timp.vara va trebui sa determine daca personajul va aduna sau nu graunte,
+determinarea sa face pe baza de personaj.getHarnicie-personaj.getLene, daca valoarea este mai mica ca 0, then facorul de adunare =0, daca lenea e mai mare decat harnicie, then factorul
+13. timp.vara de asemenea , va aduna la numarul de graunte al personajului, un numar de graunte egal cu numardegraunte.
+
+

@@ -16,17 +16,17 @@ public class Greiere {
 
     public String text1() {
         return
-                "\n\033[1;32m 1. Buna ziua doamna furnica, ce faceti atat de grabita?\033[1;30m \n\033[1;33m 2. Ce-ai facut bobita?, Te-ai prins?....Bobita :p,..graunte....well anyway \033[1;30m \n3. whatssssssuuuuuppppp, my nigggaaa, cu cajuuuuuu-ul ala in spate? \033[0m";
+                "\n\033[1;32m 1. Buna ziua doamna furnica, ce faceti atat de grabita?\033[1;30m \n\033[1;33m 2. Ce-ai facut bobita?, Te-ai prins?....Bobita :p,..graunte....well anyway \033[0m \n3. whatssssssuuuuuppppp, my nigggaaa, cu cajuuuuuu-ul ala in spate? \033[0m";
     }
 
     public String text2() {
         return
-                "\n\033[1;32m 1. Buna ziua doamna furnica, ce faceti atat de grabita, nu vedeti ce frumos este afara, stati un pic sa vorbim?\033[1;30m \n\033[1;33m 2. hohohoh, inca n-a venit iarna ce tragi asa de tare?\033[1;30m \n3. Gata, work time is over, party time is here, get it?";
+                "\n\033[1;32m 1. Buna ziua doamna furnica, ce faceti atat de grabita, nu vedeti ce frumos este afara, stati un pic sa vorbim?\033[1;30m \n\033[1;33m 2. hohohoh, inca n-a venit iarna ce tragi asa de tare?\033[0m \n3. Gata, work time is over, party time is here, get it?";
     }
 
     public String text3() {
         return
-                "\n\033[1;32m 1. Se apropie iarna, dar tot e frumos afara, nu mai bine faceti o pauza ?\033[1;30m \n\033[1;33m 2. Yahooooo, nu vezi cum cad frunzele, ia mai trage si tu pe dreapta?\033[1;30m \n3. Get the autumn feelings, shake your body baby.....feel the rithm of my music";
+                "\n\033[1;32m 1. Se apropie iarna, dar tot e frumos afara, nu mai bine faceti o pauza ?\033[1;30m \n\033[1;33m 2. Yahooooo, nu vezi cum cad frunzele, ia mai trage si tu pe dreapta?\033[0m \n3. Get the autumn feelings, shake your body baby.....feel the rithm of my music";
     }
 
     int decz = 0;

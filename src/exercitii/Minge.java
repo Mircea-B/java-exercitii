@@ -1,3 +1,5 @@
+package exercitii;
+
 public class Minge {
 
 

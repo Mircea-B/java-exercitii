@@ -110,6 +110,9 @@ metoda asta trebuie sa primeasca ca parmatreu un scanner, sa puna intrebarile
 Scanner.nextline();
  Book temp=new Book(tempname,tempid,etc);
 
+5.E.
+
+
 6:Navigarea
 1. Adauga produse
 2. vezi produse

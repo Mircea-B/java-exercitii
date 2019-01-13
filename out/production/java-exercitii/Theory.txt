@@ -1,0 +1,8 @@
+Carti de cumparat :D
+head first java
+design paterns
+effective java
+
+
+Complex.withname("name").withHeight(654)....etc - builder design patern
+the gang of four

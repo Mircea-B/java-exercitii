@@ -1,0 +1,20 @@
+1. add(5);
+2. add(1);
+3.folosim constructorul atunci cand dorim sa dorim ca obiectul nostru sa aiba niste valori din prima, este folosit pentru a construi ceva
+un obiect este ce rezulta in urma instantierii unei clase.
+un obiect este unitatea fundamentala din Java
+
+
+sa facem un x si o pt maine;
+
+un array de la cap la coada
+
+int j=array[array.lenght];
+for(int i=j;i<=0;i--){
+System.out.println(array[i]);
+}
+}
+;
+
+Tema pentru 13.01.2019
+

@@ -1,0 +1,82 @@
+Library:                        CRUD
+- books                         Create
+- pens                          Read
+- notebooks                     Update
+                                Delete
+print books
+print pens
+print notebooks
+
+
+Books with id 3
+pens with id 2
+2 notebooks with id 4
+
+every product has:                                             1. addproduct -> Branch a
+- title                                                        2. see product -> Branch b
+- uid                                                          3. buy -> c
+- price                                                        4. exit
+- offer
+
+
+A:                                              B.
+1.add book                                      1. view books.
+2. add pens                                     2. view notebooks
+3. add notebook                                 3. view pens.
+4. return to menu                               4. see total
+                                                5. back
+
+C.
+1. Add products
+2. see total
+3. buy
+4. back.
+
+
+Flow de implementare:
+1. Trebuie sa scriem clasele Bookstore, Book, Pen, Notebook, BookstoreRunner,texte
+2. Pentru Book, Pen si Notebook adaugati fieldurile: title/name, id, price, isOnOffer.
+    - Book - title
+    - pen - name
+    - notebook - name
+    title: String
+    name: String
+    id: int
+    price: double; ex:29.99
+    isOnOffer : boolean
+    offerDiscount: int. ,ex:20
+3. In Bookstore vor exista 3 field-uri care sunt Array-uri de book, pen si notebook.
+
+
+exemple de metode:
+ArrayList<Book> books = new ArrayList<>();
+books.get(index);
+books.add (un book object);
+books.remove (index) sau books.remove(un anumit book object);
+
+4. Texts:
+MainMenu:
+1. Adauga Produse
+2. Vzi produse
+3. cumparare
+4. Iesire
+
+AddProductMenu:                         ListProductMenu:
+1 Adauga Carte                          1. Arata Carti
+2. Acdauga Caiet                        2. Arata Caiete
+3. Adauga Pix                           3. ArataPixuri
+4. Adauga pix.                          4.
+
+
+String text=1".Arata Carti\n 2. Arata caiete" sau
+String linie1="a.Arata Carti";
+String linie2="2.Arata Caiete";
+
+
+5:Navigarea
+1. Adauga produse
+2. vezi produse
+3. cwumparare
+4. iesire
+
+Scanner scanner = new Scanner

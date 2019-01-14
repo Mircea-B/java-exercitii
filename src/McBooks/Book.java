@@ -6,7 +6,7 @@ public class Book {
     int id;
     double price;
     boolean isOnOffer;
-    int offerDiscount;
+    double offerDiscount;
 
     public Book(String title, int id, double price, boolean isOnOffer, int offerDiscount) {
         this.title = title;
@@ -32,7 +32,7 @@ public class Book {
         return isOnOffer;
     }
 
-    public int getOfferDiscount() {
+    public double getOfferDiscount() {
         return offerDiscount;
     }
 

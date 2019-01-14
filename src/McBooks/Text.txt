@@ -110,6 +110,8 @@ metoda asta trebuie sa primeasca ca parmatreu un scanner, sa puna intrebarile
 Scanner.nextline();
  Book temp=new Book(tempname,tempid,etc);
 
+sa folosim metode statice, ca sa nu mai instantiem de fiecare data nu stiu cate obiecte
+
 6:Navigarea
 1. Adauga produse
 2. vezi produse

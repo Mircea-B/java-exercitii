@@ -30,12 +30,14 @@ public class Bookstore {
         System.out.println("Va rugam introduceti pretul cartii");
         double tempPrice = scanner.nextDouble();
         System.out.println("Este cartea la discount (y/n)");
-        boolean tempIsonOffer=true;
-        if(scanner.next()=="y"){
-            tempIsonOffer=true;
-        }else{
-            tempIsonOffer=false;
+        boolean tempIsonOffer=false;
+        String tempDiscountChoice = scanner.next();
+        if(tempDiscountChoice.equals("y") ){
+            tempIsonOffer = true;
         }
+//        }else{
+//                tempIsonOffer=false;
+
         System.out.println("Care ar fi discountul cartii?");
         int tempDiscount = scanner.nextInt();
 

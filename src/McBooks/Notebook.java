@@ -5,7 +5,7 @@ public class Notebook {
     int id;
     double price;
     boolean isOnOffer;
-    int offerDiscount;
+    double offerDiscount;
 
     public Notebook(String name, int id, double price, boolean isOnOffer, int offerDiscount) {
         this.name = name;
@@ -31,8 +31,13 @@ public class Notebook {
         return isOnOffer;
     }
 
-    public int getOfferDiscount() {
+    public double getOfferDiscount() {
         return offerDiscount;
+    }
+    public double calculateDiscountPrice() {
+        if (isOnOffer == true) {
+            price = price - (price * (offerDiscount / 100));
+        }return price;
     }
 
 }

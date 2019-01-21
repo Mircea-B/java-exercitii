@@ -118,4 +118,28 @@ sa folosim metode statice, ca sa nu mai instantiem de fiecare data nu stiu cate 
 3. cwumparare
 4. iesire
 
+
+7. Se va crea o clasa numita Navigation. Navigation va primi in constructor un Bookstore si un Scanner.
+	Vor exista mai multe metode pentru navigare:
+	- mainMenu();
+	- addProduct();
+	- listProduct();
+
+	Trebuie sa se printeze textul relevant pentru 'ecranul' la care suntem.
+
+	Metodele de la punctul 4, trebuie sa fie facute statice. In felul asta le puteti aplea ca Texts.addProductMenu();
+
+	Fiecare metoda trebuie sa citeasca de la tastatura un numar, de la 1 la 4 pentru a decide ce actiune se face.
+
+	se vor face o serie de if-uri, pentru a decide actiunea.
+	ex. daca suntem la ecran principal  :
+	if (cititDeLaTastatura == 1) {
+		addProduct();
+	}
+
+	pentru iesire se va folosi System.exit(0), in cazul in care optiunea selectata este 4 din meniul principal.
+
+	In BookstoreRunner se va instantia Navigation, unde se vor da ca parametri bookstore si scanner.
+
+	apoi se apeleaza navigation.mainMenu();
 Scanner scanner = new Scanner

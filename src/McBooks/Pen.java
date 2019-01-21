@@ -6,8 +6,8 @@ public class Pen {
     int id;
     double price;
     boolean isOnOffer;
-    int offerDiscount;
-double pretfinal;
+    double offerDiscount;
+
 
     public Pen(String name, int id, double price, boolean isOnOffer, int offerDiscount) {
         this.name = name;
@@ -15,7 +15,6 @@ double pretfinal;
         this.price = price;
         this.isOnOffer = isOnOffer;
         this.offerDiscount = offerDiscount;
-        this.pretfinal= pretfinal;
     }
 
     public String getName() {
@@ -34,7 +33,7 @@ double pretfinal;
         return isOnOffer;
     }
 
-    public int getOfferDiscount() {
+    public double getOfferDiscount() {
         return offerDiscount;
     }
 

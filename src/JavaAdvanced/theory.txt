@@ -1,0 +1,8 @@
+Overloead
+- metode cu acelasi unume dar semnaturi diferite in aceeasi clasa
+
+Override
+- suprascrie metode
+
+poti verifica ramurile de inheritance cu intrebarea instanceof
+

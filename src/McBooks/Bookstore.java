@@ -14,11 +14,11 @@ public class Bookstore {
         books.add(book);
     }
 
-    public void printBooks() {
+    public  void printBooks() {
         for (Book i : books) {
-            System.out.println("Cartea dumneavoastra este:\n"+"numele cartii:"+i.getTitle() + "\n" +"ID: "+ i.getId() + "\n"+
-                    "Este la oferta: "+i.isOnOffer()+"\n" +"Valoare discountului: "+i.getOfferDiscount() + "\n" +"Pretul este: "+ i.getPrice());
-            System.out.println(i.calculateDiscountPrice());
+            System.out.println("Cartea dumneavoastra este:\n" + "numele cartii:" + i.getTitle() + "\n" + "ID: " + i.getId() + "\n" +
+                    "Este la oferta: " + i.isOnOffer() + "\n" + "Valoare discountului: " + i.getOfferDiscount() + "\n" + "Pretul este: " + i.getPrice());
+
         }
     }
 
@@ -30,13 +30,11 @@ public class Bookstore {
         System.out.println("Va rugam introduceti pretul cartii");
         double tempPrice = scanner.nextDouble();
         System.out.println("Este cartea la discount (y/n)");
-        boolean tempIsonOffer=false;
+        boolean tempIsonOffer = false;
         String tempDiscountChoice = scanner.next();
-        if(tempDiscountChoice.equals("y") ){
+        if (tempDiscountChoice.equals("y")) {
             tempIsonOffer = true;
         }
-//        }else{
-//                tempIsonOffer=false;
 
         System.out.println("Care ar fi discountul cartii?");
         int tempDiscount = scanner.nextInt();
@@ -49,12 +47,14 @@ public class Bookstore {
     public void addPen(Pen pen) {
         pens.add(pen);
     }
+
     public void printPen() {
-        for (Book i : books) {
-            System.out.println("Pixul dumneavoastra este:\n"+"Numele Pixului:"+i.getTitle() + "\n" +"ID: "+ i.getId() + "\n"+
-                    "Este la oferta: "+i.isOnOffer()+"\n" +"Valoarea discountului: "+i.getOfferDiscount() + "\n" +"Pretul este: "+ i.getPrice());
+        for (Pen i : pens) {
+            System.out.println("Pixul dumneavoastra este:\n" + "Numele Pixului:" + i.getName() + "\n" + "ID: " + i.getId() + "\n" +
+                    "Este la oferta: " + i.isOnOffer() + "\n" + "Valoarea discountului: " + i.getOfferDiscount() + "\n" + "Pretul este: " + i.getPrice());
         }
     }
+
     public void readPen(Scanner scanner) {
         System.out.println("Va rugam introduceti numele pixului");
         String tempName = scanner.nextLine();
@@ -62,28 +62,29 @@ public class Bookstore {
         int tempId = scanner.nextInt();
         System.out.println("Va rugam introduceti pretul pixului");
         double tempPrice = scanner.nextInt();
-        System.out.println("Este caietul la dioscount (y/n)");
-        boolean tempIsonOffer;
-        if(scanner.next()=="y"){
-            tempIsonOffer=true;
-        }else{
-            tempIsonOffer=false;
+        System.out.println("Este pixul la dioscount (y/n)");
+        boolean tempIsonOffer=false;
+        if (scanner.next().equals("y")) {
+            tempIsonOffer = true;
         }
         System.out.println("Care ar fi discountul pixului?");
         int tempDiscount = scanner.nextInt();
         Pen tempPen = new Pen(tempName, tempId, tempPrice, tempIsonOffer, tempDiscount);
         addPen(tempPen);
+        System.out.println(tempPen.calculateDiscountPrice());
     }
 
     public void addNoteBook(Notebook notebook) {
         notebooks.add(notebook);
     }
+
     public void printNotebook() {
         for (Book i : books) {
-            System.out.println("Caietul dumneavoastra este:\n"+"Numele caietului:"+i.getTitle() + "\n" +"ID: "+ i.getId() + "\n"+
-                    "Este la oferta: "+i.isOnOffer()+"\n" +"Valoarea discountului: "+i.getOfferDiscount() + "\n" +"Pretul este: "+ i.getPrice());
+            System.out.println("Caietul dumneavoastra este:\n" + "Numele caietului:" + i.getTitle() + "\n" + "ID: " + i.getId() + "\n" +
+                    "Este la oferta: " + i.isOnOffer() + "\n" + "Valoarea discountului: " + i.getOfferDiscount() + "\n" + "Pretul este: " + i.getPrice());
         }
     }
+
     public void readNoteBook(Scanner scanner) {
         System.out.println("Va rugam introduceti numele caietului");
         String tempName = scanner.nextLine();
@@ -92,11 +93,9 @@ public class Bookstore {
         System.out.println("Va rugam introduceti pretul caietului");
         int tempPrice = scanner.nextInt();
         System.out.println("Este caietul la dioscount (y/n)");
-        boolean tempIsonOffer;
-        if(scanner.next()=="y"){
-            tempIsonOffer=true;
-        }else{
-            tempIsonOffer=false;
+        boolean tempIsonOffer=false;
+        if (scanner.next().equals("y")) {
+            tempIsonOffer = true;
         }
         System.out.println("Care ar fi discountul caietului?");
         int tempDiscount = scanner.nextInt();

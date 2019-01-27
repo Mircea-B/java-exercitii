@@ -1,0 +1,10 @@
+sunt 2 tipuri de exceptii:
+
+- exceptii care nu ne lasa sa compilam codul - cele de compilare
+- exceptii care poti fi aruncate in timp ce codul este rulat - cele de runtime
+
+obfuscare
+
+in general trebuiesc handle-uite erorile checked.
+orice exceptie este o clasa
+cand mai dam de exceptii, sa cautam in panamera dupa ele :D

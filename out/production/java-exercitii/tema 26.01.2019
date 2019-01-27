@@ -1,0 +1,45 @@
+1. Cititi in Head First Java despre Enums, Interfete, Clase Abstracte. Faceti toate exercitiile. Capitolele 1 -> 8
+
+2. Enums. Creati 5 enumuri cu ce vreti voi. Exemplu : Lunile Anului, Zilele Saptamanii
+	Dintre cele 5, cel putin 2 trebuie sa fie un pic mai complexe.
+
+	Exemplu :
+	Simplu : FEBRUARIE(28, "descriere luna", "Februarie");
+	Complex: FEBRUARIE(28, "descriere luna", "Februarie", un obiect de tip CalculatorTemperatura(this) sau CalcualtorTemperatura("Februarie"));
+
+	    KILOMETER(1000, new TipulMeu(Length.KILOMETER))
+
+3. 5 ierarhii de clase + interfete. Runner per ierarhie.
+
+	1. Vehicle. Truck. Car. Plane. Train. Bycicle. Boat. Flyable. Drivable. Ridable.
+	 MazdaMX5, Mazda,
+
+	 BmwM3      class,
+	 Duster     class,
+
+	 Boeing747  class,
+	 Mig21      class,
+
+	 AirlinerPlane      class
+	 JetfighterPlane    class
+
+	 SportsCar      class
+	 AllTerrainCar  class
+
+	 Flyable    interface -> fly();
+	 Drivable   interface -> drive();
+
+	 Plane      interface -> movewings();
+	 Car        interface -> parallelPark();
+
+	 Vehicle    interface -> transport();
+
+
+
+
+
+	 + BONUS!!!!11!!! 2-3 interfete pe care sa le folosim in clasele de mai sus. Trebuie ca cel putin 2 clase sa impelementeze mai mult de 1 interfata.
+	2. Animal. Canin. Felina. Insecta. Mamifer. Reptile. NonMamifer. Zburator. Tarator. Alergator. + 6-7 animale.
+
+
+	EXTRA BONUS. Inca 2-3 exemple de proiectel de genul Rechin + Foca. Clase care interactioneaza una cu alta.

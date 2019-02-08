@@ -15,4 +15,9 @@ public class SportsCar implements Car, Drivable {
     public void transport() {
         System.out.println("Parcare laterala masina sport");
     }
+
+    @Override
+    public void drive() {
+        System.out.println("conduce o masina Sport");
+    }
 }

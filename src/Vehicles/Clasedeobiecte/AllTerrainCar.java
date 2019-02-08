@@ -13,4 +13,9 @@ public class AllTerrainCar  implements Car, Drivable {
     public void transport() {
         System.out.println("Transport masina de teren");
     }
+
+    @Override
+    public void drive() {
+        System.out.println("conduce o masina de teren");
+    }
 }

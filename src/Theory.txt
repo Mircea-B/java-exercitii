@@ -6,3 +6,9 @@ effective java
 
 Complex.withname("name").withHeight(654)....etc - builder design patern
 the gang of four
+
+Input/Output
+I/O
+nio.package (new input/output package)
+
+un path relativ si un path absolut

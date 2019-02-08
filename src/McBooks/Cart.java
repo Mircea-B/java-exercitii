@@ -1,6 +1,6 @@
 package McBooks;
 
-public class CosulMeu {
+public class Cart {
 int nrProduse;
 String detaliiProduse;
 

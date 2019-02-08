@@ -1,0 +1,71 @@
+Extindere Bookstore
+
+Nivel 1.
+Mostenire / Polimorfism
+
+1. Sa se implementeze mostenire/polimorfism in bookstore. Fiindca atat book, pen si notebook au proprietati comune, vrem sa le extragem intr-o clasa comuna numita Produs.
+Clasa aceasta va contine field-urile necesare ca sa functioneze aplicatia in continuare.
+2.Puteti sa aveti in clasa Produs metoda de calcul de discount, sau sa o extrageti intr-o interfata numita Discountable care sa fie implemtata de clasa Produs.
+3.Mai departe, se poate ca un anume produs (book, notebook etc ) sa implementeze Discountable si sa aiba o formula specifica de discount.
+
+Nivel 2.
+
+Exceptii. (Optional)
+
+0. Sa se defineasca 1-2 exceptii specifice pentru Shop.
+Ex. daca incercam sa adaugam un nume prea lung la produs. Mai mult de 32 de chars. sau daca pretul e mai mare de 5000. Sau daca discountul este mai mare de 100.
+
+Citire din fisier.
+
+Vor exista mai multe fisiere pentru informatii, din care se vor citit produsele. Ex. book.txt, notebook.txt.
+
+in fisier, informatiile vor fi puse in formatul urmator :
+
+numeProdus,pret,discountPercentage,isOnDiscount
+
+ex.
+Mary Poppins,25,0,false
+Ion,50,50,true
+
+bonus, inlocuiti false si true cu da si nu.
+
+Level 3.
+
+Scriere in fisier.
+
+Orice produs pe care il veti adauga acum se va si scrie in fisierul de intrare.
+Practic citind un produs de la tastatura veti crea un string, pe care il adaugati in fisier.
+
+Super Bonus.
+Extindeti lista de produse din fisier, astfel incat sa aveti un singur fisere de produse numit produse.txt
+Fisierul va avea urmatorul content :
+
+book,Mary Poppins,25,0,false
+book,Ion,50,50,true
+pen,centropen,2,0,false
+notebook,matematica,5,10,true
+
+Book, pen, si notebook acum vor fi prezente intr-un enum.
+
+
+Extindere bookstore (eventual trebuie facut de la inceput bookstore-ul)
+
+1. Sa se oimplementeza mpostenire/polimorfism in bookstore. fiindca atat book, pen si notebook su proprietati comune, vrem sa le extragem intr-o clasa comunica numita Produs.
+Clasa aceasta va contine field-urile necesare ca sa fucntioneza aplicatai in continuare.
+02. Puteti sa  veti in clasa Produs metoda de calcul de discount, sau sa o extrageti intr-o interfata numita discountable care sa fie implementata de clasa Produs.
+03. Mai departe, s epoate ca un naume produs (book,notebook etc) sa implementeze Discountable si sa aiba o formula specifica de discount.
+
+Nivel 2
+
+Exceptii. (Optional)
+
+0. Sa se defineasca 1-2 exceptii specificce pentru shop.
+Ex.daca incercam sa adaugam un nume prea lung la produs. Mai mult de 32 de caractere sau daca pretul e mai mare de 5000 sau daca discountul este mai mare de 100.
+
+Citire din fisier.
+Vor exista mai multe fisier pentr informatii, din care se vor citit produsele. Ex. book.txt, notebook.txt.
+in fisier, informtatiile vor fi puse in formatul urmator:
+numeprodus,poret,discountPercentage,isOndiscount
+
+
+

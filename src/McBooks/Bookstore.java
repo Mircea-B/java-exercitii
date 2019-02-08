@@ -79,9 +79,9 @@ public class Bookstore {
     }
 
     public void printNotebook() {
-        for (Book i : books) {
-            System.out.println("Caietul dumneavoastra este:\n" + "Numele caietului:" + i.getTitle() + "\n" + "ID: " + i.getId() + "\n" +
-                    "Este la oferta: " + i.isOnOffer() + "\n" + "Valoarea discountului: " + i.getOfferDiscount() + "\n" + "Pretul este: " + i.getPrice());
+        for (Book zb : books) {
+            System.out.println("Caietul dumneavoastra este:\n" + "Numele caietului:" + zb.getTitle() + "\n" + "ID: " + zb.getId() + "\n" +
+                    "Este la oferta: " + zb.isOnOffer() + "\n" + "Valoarea discountului: " + zb.getOfferDiscount() + "\n" + "Pretul este: " + zb.getPrice());
         }
     }
 
@@ -100,7 +100,7 @@ public class Bookstore {
         System.out.println("Care ar fi discountul caietului?");
         int tempDiscount = scanner.nextInt();
         Notebook tempNotebook = new Notebook(tempName, tempId, tempPrice, tempIsonOffer, tempDiscount);
-        addNoteBook(tempNotebook);
+        System.out.println(tempNotebook.calculateDiscountPrice());
     }
 
 }

@@ -1,11 +1,7 @@
 package McBooks;
 
-public class Notebook {
+public class Notebook extends Product {
     String name;
-    int id;
-    double price;
-    boolean isOnOffer;
-    double offerDiscount;
 
     public Notebook(String name, int id, double price, boolean isOnOffer, int offerDiscount) {
         this.name = name;
@@ -19,26 +15,7 @@ public class Notebook {
         return name;
     }
 
-    public int getId() {
-        return id;
-    }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public boolean isOnOffer() {
-        return isOnOffer;
-    }
-
-    public double getOfferDiscount() {
-        return offerDiscount;
-    }
-    public double calculateDiscountPrice() {
-        if (isOnOffer == true) {
-            price = price - (price * (offerDiscount / 100));
-        }return price;
-    }
 
 }
 

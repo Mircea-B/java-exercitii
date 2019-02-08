@@ -1,12 +1,8 @@
 package McBooks;
 
-public class Book {
+public class Book extends Product{
 
     String title;
-    int id;
-    double price;
-    boolean isOnOffer;
-    double offerDiscount;
 
     public Book(String title, int id, double price, boolean isOnOffer, int offerDiscount) {
         this.title = title;
@@ -20,25 +16,5 @@ public class Book {
         return title;
     }
 
-    public int getId() {
-        return id;
-    }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public boolean isOnOffer() {
-        return isOnOffer;
-    }
-
-    public double getOfferDiscount() {
-        return offerDiscount;
-    }
-
-    public double calculateDiscountPrice() {
-        if (isOnOffer == true) {
-            price = price - (price * (offerDiscount / 100));
-        }return price;
-    }
 }

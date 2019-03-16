@@ -2,7 +2,7 @@ package Abstracts;
 
 public class Dog extends Animal {
     @Override
-    public String bark() {
-        return null;
+    public void bark() {
+        System.out.println("latra ca un caine");
     }
 }

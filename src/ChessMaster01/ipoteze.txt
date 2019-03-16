@@ -1,0 +1,32 @@
+Vor exista 6 clase numite : Pion, Regina, Nebun, Tura, Rege, Cal.
+Va exista o interfata numita Movable. Interfata asta va avea o metoda numita canMove(int intialPositionX, int intialPositionY, int toX, int toY) return boolean.
+
+Va exista o clasa numita Board. Aceasta are metodele move(), remove(). Va exista un field numit positions de tipul List<List<String>> positions;
+
+Va exista un enum numit PieceInfo, unde va exista un constructor. Acesta va primi un string cu numele lui (P,C,R, r etc). valorile enumului sunt numele pieselor.
+Va fi o metoda numita getPieceRepresentation unde returnam valoarea din constructor.
+
+---
+
+Vom face un enum numit Color cu field-uri de enum numite White si Black. va exista un field de tip String pentru culoare si un getter pentru acesta. Procesul e similar ca la PieceInfo
+
+Vom face o clasa numita Piesa. facem un constructor care sa primeasca ca parametrii urmatoarel informatii 
+- un field de tip PieceInfo ->  pentru tipul acela de piesa
+- un field de tip Color.
+- un int numit x 
+- un int numit y
+
+Vom face un field de tipul List<Piesa> numit pieceList. acest field se va afla in Board.
+
+
+Clasa board acum trebuie sa aiba o metoda numita populateInitialBoard() ce nu va returna nimic. aici populam piesele
+Clasa board de asemenea va avea o metoda numita printBoard() unde doar se vor printa piesele de pe board.
+
+Cand incepem sa populam board-ul cu populateInitialBoard() iteram prin positions si boardlist. Va fi un for triplu imbricat. Primul level va x-ul din positions. al 2lea va fi y-ul din positions si al 3lea va fi un foreach din boardList.
+se va verifica daca coordonatele din x si y corespund cu vreun item din boardlist. daca da, atunci se va asigna itemul din boardlist in positions.
+
+board.populateInitialBoard(){
+	piesaList.add(new Pion(PieceInfo.Pion,Colors.White, 0,1));
+	piesaList.add(new Pion(PieceInfo.Pion,Colors.White, 1,1));
+	piesaList.add(new Tura(PieceInfo.Tura,Colors.Black, 7,7));
+}

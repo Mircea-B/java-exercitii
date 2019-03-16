@@ -2,5 +2,7 @@ package Abstracts;
 
 public abstract class Animal {
 
-    public abstract String bark();
+    public void bark(){
+        System.out.println("latra ca un animal");
+    }
 }

@@ -1,0 +1,11 @@
+un builder este un patern care are mai multi parametri, dar unele din ele pot sa si lipseasca
+DAR trebuie sa le definesti pe toate, chiar daca le folosesti doar pe cateva
+
+
+
+
+
+
+
+
+

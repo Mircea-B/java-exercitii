@@ -1,0 +1,58 @@
+public class Bank {
+    // TODO register new client
+    // TODO client can add account
+    // TODO client can add money into account
+    // TODO client can remove money from account
+
+    public Client client;
+    public Client client1;
+    public Client client2;
+    public static Bank bank;
+
+    public static void main(String[] args) {
+        bank = new Bank();
+        bank.client = new Client();
+        bank.client1 = new Client();
+        bank.client2 = new Client();
+
+        bank.client.cont = new Cont();
+        bank.client1.cont = new Cont();
+        bank.client2.cont = new Cont();
+
+        bank.addMoney(5);
+        bank.addMoneyForSecondClient(7);
+        bank.client1.cont.money = 7;
+        bank.client.cont.money = 4;
+    }
+
+    public void addMoney(int sum){
+        bank.client.cont.money = sum;
+    }
+
+    public void addMoneyForSecondClient(int sum){
+        bank.client1.cont.money = sum;
+    }
+
+    map pentru client
+    conturile tin de banca
+    clientul va avea o lista de conturi
+    scoatem bani de la banca (bank.add)
+
+    Reguli:
+    1. banca face tot
+    2. pt a se face o operatiune, trebuie sa mergem la banca wink wink.
+    3. clientul nu controleaza nimic el e acolo doar sa verifice daca are baniu
+
+    cerinte:
+    1. avem o clasa de banca
+    2. in abnca trebuie sa putem sa creem clienti (banca.retrievecliendID, ->contManager.retriever(client,5);
+    3. In banca trebuie sa putem sa creeam conturi pentru clienti
+    4. un client nou va avea asignat doar un nume
+    5. clientul va avea nume si cont.
+    banca poate sa adauge clienti, se va face prin bank,addClient("customername");
+    banca trebuie sa adauge si un cont
+banca trebuie sa adauge si un cont , se va face prin bankl.addAccount(clientid);
+    6. contul va avea bani.
+    7. vom avea o clasa numita cont manager in care poate sa adauge sau sa scoata bani dion cont. el va verifica daca sunt bani suficienti. Aceasta clasa va fi instantiata in banca. contamanager va primi un cont pe care il poate manipula.
+    8. vom avea o metoda add, atat in banca si in contManager, una o va apela pe cealalta
+    9. add din bank va primi un clientid, add din contManager ca primi un client. trebuie sa putem obtine clientul din map-ul de clienti.

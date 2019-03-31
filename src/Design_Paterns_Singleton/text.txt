@@ -1,0 +1,6 @@
+lazy mode sau eager mode
+
+
+--------------
+
+

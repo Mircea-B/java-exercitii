@@ -2,7 +2,15 @@ un builder este un patern care are mai multi parametri, dar unele din ele pot sa
 DAR trebuie sa le definesti pe toate, chiar daca le folosesti doar pe cateva
 
 
+UML - unified modeling language
++ in uml inseamna public
+- in uml inseamna private
 
+
+factory creeaza o multitudine de tipuri de obiecte
+builder creaaza un obiect
+
+la prototype facem o instanta si o copiem - se foloseste in baza de date(thread pool-uri)
 
 
 

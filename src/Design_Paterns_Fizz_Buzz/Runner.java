@@ -8,7 +8,7 @@ public class Runner {
 
         Fizz_Buzz_Executor executor = new Fizz_Buzz_Executor(strategie.getStrategy(15));
 
-        executor.say(strategie.getStrategy(0));
+        executor.say(strategie.getStrategy(21));
     }
 
 }
